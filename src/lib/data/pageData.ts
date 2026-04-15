@@ -14,44 +14,42 @@ export const Headerdata: HeaderItem[] = [
   { label: "Docs", href: "/documentation" },
 ];
 
-const basePath = process.env.NODE_ENV === "production" ? "/crypto-nextjs" : "";
-
 export const Companiesdata: { imgSrc: string }[] = [
   {
-    imgSrc: `${basePath}/images/companies/birdseye.svg`,
+    imgSrc: "/images/companies/birdseye.svg",
   },
   {
-    imgSrc: `${basePath}/images/companies/break.svg`,
+    imgSrc: "/images/companies/break.svg",
   },
   {
-    imgSrc: `${basePath}/images/companies/keddar.svg`,
+    imgSrc: "/images/companies/keddar.svg",
   },
   {
-    imgSrc: `${basePath}/images/companies/shield.svg`,
+    imgSrc: "/images/companies/shield.svg",
   },
   {
-    imgSrc: `${basePath}/images/companies/tandov.svg`,
+    imgSrc: "/images/companies/tandov.svg",
   },
   {
-    imgSrc: `${basePath}/images/companies/tree.svg`,
+    imgSrc: "/images/companies/tree.svg",
   },
 ];
 
 export const workdata: WorkType[] = [
   {
-    imgSrc: `${basePath}/images/work/icon-one.svg`,
+    imgSrc: "/images/work/icon-one.svg",
     heading: "Create Account",
     subheading:
       "Sign up with your email, set up a secure password, and verify your identity to unlock full access to the platform. Getting started takes just a few minutes.",
   },
   {
-    imgSrc: `${basePath}/images/work/icon-two.svg`,
+    imgSrc: "/images/work/icon-two.svg",
     heading: "Add Funds",
     subheading:
       "Deposit money using your preferred payment method — bank transfer, debit card, or crypto wallet — and get ready to explore the world of digital assets.",
   },
   {
-    imgSrc: `${basePath}/images/work/icon-three.svg`,
+    imgSrc: "/images/work/icon-three.svg",
     heading: "Buy, Sell & Exchange",
     subheading:
       "Easily buy or sell cryptocurrencies like Bitcoin and Ethereum, or convert between coins — all with real-time rates and low transaction fees.",
@@ -60,19 +58,19 @@ export const workdata: WorkType[] = [
 
 export const Featuresdata: FeatureType[] = [
   {
-    imgSrc: `${basePath}/images/features/featureOne.svg`,
+    imgSrc: "/images/features/featureOne.svg",
     heading: "Secure Storage",
     subheading:
       "Your crypto is protected with advanced encryption and offline cold wallets, ensuring top-tier security and privacy.",
   },
   {
-    imgSrc: `${basePath}/images/features/featureTwo.svg`,
+    imgSrc: "/images/features/featureTwo.svg",
     heading: "Free to Use",
     subheading:
       "Enjoy powerful portfolio tracking, live analytics, and account management tools — all without any hidden fees.",
   },
   {
-    imgSrc: `${basePath}/images/features/featureThree.svg`,
+    imgSrc: "/images/features/featureThree.svg",
     heading: "Real-Time Price Data",
     subheading:
       "Get live crypto prices, market updates, and real-time data from top global exchanges — all in one place, 24/7.",
@@ -99,19 +97,19 @@ export const Faqdata: FaqType[] = [
 
 export const Sociallinkdata: SocialType[] = [
   {
-    imgsrc: `${basePath}/images/footer/insta.svg`,
+    imgsrc: "/images/footer/insta.svg",
     href: "https://instagram.com/",
   },
   {
-    imgsrc: `${basePath}/images/footer/dribble.svg`,
+    imgsrc: "/images/footer/dribble.svg",
     href: "https://dribble.com/",
   },
   {
-    imgsrc: `${basePath}/images/footer/twitter.svg`,
+    imgsrc: "/images/footer/twitter.svg",
     href: "https://twitter.com/",
   },
   {
-    imgsrc: `${basePath}/images/footer/youtube.svg`,
+    imgsrc: "/images/footer/youtube.svg",
     href: "https://youtube.com/",
   },
 ];
